@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "C:\Users\Sudarshan\Anaconda3\lib\site-packages\spyder\app\mainwindow.py", line 3711, in main
+    mainwindow = run_spyder(app, options, args)
+  File "C:\Users\Sudarshan\Anaconda3\lib\site-packages\spyder\app\mainwindow.py", line 3552, in run_spyder
+    main.setup()
+  File "C:\Users\Sudarshan\Anaconda3\lib\site-packages\spyder\app\mainwindow.py", line 1010, in setup
+    from spyder.plugins.ipythonconsole.plugin import IPythonConsole
+  File "C:\Users\Sudarshan\Anaconda3\lib\site-packages\spyder\plugins\ipythonconsole\plugin.py", line 52, in <module>
+    from spyder.plugins.ipythonconsole.widgets import ClientWidget
+  File "C:\Users\Sudarshan\Anaconda3\lib\site-packages\spyder\plugins\ipythonconsole\widgets\__init__.py", line 16, in <module>
+    from .debugging import DebuggingWidget
+  File "C:\Users\Sudarshan\Anaconda3\lib\site-packages\spyder\plugins\ipythonconsole\widgets\debugging.py", line 22, in <module>
+    from IPython.core.inputtransformer2 import TransformerManager
+ModuleNotFoundError: No module named 'IPython.core.inputtransformer2'

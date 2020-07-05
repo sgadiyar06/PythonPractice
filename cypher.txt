@@ -1,0 +1,1 @@
+Hello my name is Sudarshan This is an example of creating a cypher which can be read only if a key is given to read This uses a concept of dictionary where the normal english letters are jumbled or replaced with other letters and the order is known only to the author
